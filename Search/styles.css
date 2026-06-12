@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="text"] {
+    width:500px;
+    padding: 12px 20px;
+    border: 1px solid #dfe1e5;
+    border-radius:24px;
+    font-size:16px;
+    outline: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+input[type="submit"] {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    border-color: #dadce0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #3c4043;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.advanced-form div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.advanced-form label {
+    width: 200px;
+    text-align: left;
+}
+
+.advanced-form input[type="submit"] {
+    background-color: #c2d7f7;
+    color: #1a1a1a;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.advanced-form input[type="submit"]:hover {
+    background-color: #a8c4f0;
+}
+
+.advanced-form input[type="text"] {
+    border-radius: 4px;
+    width: 400px;
+}
+
+.advanced-form {
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+.advanced-wrapper {
+    width: 100%;
+    padding: 40px 40px 40px 100px;
+}
+
+.advanced-wrapper h1,
+.advanced-wrapper h2 {
+    margin-left: 40px;
+}
+
+.advanced-wrapper img {
+     margin-bottom: 20px;
+    margin-top: -40px;
+    padding: 40px 40px 40px 20px;
+}
+
+.advanced-wrapper h1 {
+    margin-bottom: 30px;
+}
